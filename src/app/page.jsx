@@ -1,6 +1,10 @@
 import Image from "next/image";
+<<<<<<< HEAD
 import Link from "next/link";
 import MyImage from "@public/Image/My-image.png";
+=======
+import MyImage from "@public/Image/my-image.png";
+>>>>>>> 12b48afd20dd19807d01e926ec0ac61a4c8af5e8
 import Button from "@/components/atoms/Button";
 
 export default function Home() {

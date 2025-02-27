@@ -22,7 +22,10 @@ export default function Contact() {
           <h3>Facebook</h3>
         </div>
         <div className="flex flex-col items-center justify-center gap-2">
+<<<<<<< HEAD
           {" "}
+=======
+>>>>>>> 12b48afd20dd19807d01e926ec0ac61a4c8af5e8
           <Link
             href="https://github.com/srseen"
             target="_blank"
@@ -33,7 +36,10 @@ export default function Contact() {
           <h3>Github</h3>
         </div>
         <div className="flex flex-col items-center justify-center gap-2">
+<<<<<<< HEAD
           {" "}
+=======
+>>>>>>> 12b48afd20dd19807d01e926ec0ac61a4c8af5e8
           <Link
             href="mailto:seereen.2540@gmail.com"
             target="_blank"
