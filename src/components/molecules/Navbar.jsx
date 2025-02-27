@@ -2,9 +2,9 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import LogoIcon from "@public/Logo.svg";
+import LogoIcon from "@public/logo.svg";
 import ThemeToggle from "@components/atoms/ThemeToggle";
-import Icon from "../atoms/Icon";
+import Icon from "@components/atoms/Icon";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
