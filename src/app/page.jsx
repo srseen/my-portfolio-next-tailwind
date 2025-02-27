@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import MyImage from "@public/Image/My-image.png";
 import Button from "@/components/atoms/Button";
 

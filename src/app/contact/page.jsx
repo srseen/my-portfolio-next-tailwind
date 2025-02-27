@@ -1,4 +1,5 @@
-import Image from "next/image";
+"use client";
+
 import Link from "next/link";
 import FacebookIcon from "@public/Contact/facebook.svg";
 import GithubIcon from "@public/Contact/github.svg";
@@ -21,7 +22,6 @@ export default function Contact() {
           <h3>Facebook</h3>
         </div>
         <div className="flex flex-col items-center justify-center gap-2">
-          {" "}
           <Link
             href="https://github.com/srseen"
             target="_blank"
@@ -32,7 +32,6 @@ export default function Contact() {
           <h3>Github</h3>
         </div>
         <div className="flex flex-col items-center justify-center gap-2">
-          {" "}
           <Link
             href="mailto:seereen.2540@gmail.com"
             target="_blank"
