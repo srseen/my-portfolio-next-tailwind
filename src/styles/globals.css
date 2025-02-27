@@ -3,16 +3,16 @@
 @tailwind utilities;
 
 @layer components {
-  /* Background Color */
-  .bg-color {
-    @apply bg-gray-400 dark:bg-gray-900;
+  /* Primary Color */
+  .primary-color {
+    @apply bg-gray-500 text-black dark:bg-gray-900 dark:text-white;
   }
-  /* Text Color */
-  .text-color {
-    @apply text-black dark:text-white;
+  /* Secondary Color */
+  .secondary-color {
+    @apply bg-gray-200 text-black dark:bg-gray-400;
   }
-  /* Background Icon */
+  /* Background Icon Color */
   .bg-icon {
-    @apply p-1 w-10 h-10 bg-gray-300 dark:bg-gray-400 rounded-full;
+    @apply bg-gray-100 dark:bg-gray-300;
   }
 }

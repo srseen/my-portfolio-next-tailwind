@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
-import SunIcon from "../../public/Theme/sun.svg";
-import MoonIcon from "../../public/Theme/moon.svg";
+import SunIcon from "@public/Theme/sun.svg";
+import MoonIcon from "@public/Theme/moon.svg";
 import Image from "next/image";
+import Icon from "./Icon";
 
 export default function ThemeToggle() {
   const [theme, setTheme] = useState("light");
@@ -26,13 +27,8 @@ export default function ThemeToggle() {
   };
 
   return (
-    <Image
-      src={theme === "light" ? SunIcon : MoonIcon}
-      alt="Theme Toggle"
-      width={40}
-      height={40}
-      onClick={toggleTheme}
-      className="bg-icon cursor-pointer"
-    ></Image>
+    <div onClick={toggleTheme}>
+      <Icon src={theme === "light" ? SunIcon : MoonIcon} alt="Theme Toggle" />
+    </div>
   );
 }
