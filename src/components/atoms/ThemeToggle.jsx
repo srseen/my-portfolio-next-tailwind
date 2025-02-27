@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import SunIcon from "@public/Theme/sun.svg";
 import MoonIcon from "@public/Theme/moon.svg";
-import Image from "next/image";
 import Icon from "./Icon";
 
 export default function ThemeToggle() {

@@ -6,8 +6,8 @@ export default function Icon({ src, alt }) {
       <Image
         src={src}
         alt={alt}
-        width={100}
-        height={100}
+        width={40}
+        height={40}
         className="bg-icon rounded-full p-1 w-10 h-10 transition-transform duration-300 hover:scale-110 cursor-pointer"
       />
     </div>

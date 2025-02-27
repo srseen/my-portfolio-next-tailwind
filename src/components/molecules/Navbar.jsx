@@ -2,9 +2,8 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import LogoIcon from "@public/logo.svg";
 import ThemeToggle from "@components/atoms/ThemeToggle";
-import Icon from "../atoms/Icon";
+import Icon from "@components/atoms/Icon";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +14,7 @@ export default function Navbar() {
         <div className="flex items-center space-x-4">
           {/* Logo */}
           <Link href="/">
-            <Icon src={LogoIcon} alt="LogoIcon" />
+            <Icon src="/logo.svg" alt="LogoIcon" />
           </Link>
           <h1 className="text-lg font-bold cursor-pointer">
             I'm Seereen Yangpaknam
