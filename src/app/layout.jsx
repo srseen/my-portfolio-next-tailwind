@@ -12,11 +12,7 @@ export const metadata = {
   title: "My Portfolio",
   description: "A showcase of my projects and skills",
   icons: {
-<<<<<<< HEAD
     icon: "/Logo.svg",
-=======
-    icon: "/logo.svg",
->>>>>>> 12b48afd20dd19807d01e926ec0ac61a4c8af5e8
   },
   author: "Seereen Yangpaknam",
   keywords: ["portfolio", "web development", "projects", "skills"],
