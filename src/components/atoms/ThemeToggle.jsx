@@ -1,7 +1,5 @@
 import { useEffect, useState } from "react";
-import SunIcon from "@public/Theme/sun.svg";
-import MoonIcon from "@public/Theme/moon.svg";
-import Icon from "./Icon";
+import { SunIcon, MoonIcon } from "@/components/atoms/Icon";
 
 export default function ThemeToggle() {
   const [theme, setTheme] = useState("light");
@@ -27,7 +25,7 @@ export default function ThemeToggle() {
 
   return (
     <div onClick={toggleTheme}>
-      <Icon src={theme === "light" ? SunIcon : MoonIcon} alt="Theme Toggle" />
+      {theme === "light" ? <SunIcon /> : <MoonIcon />}
     </div>
   );
 }

@@ -1,10 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import FacebookIcon from "@public/Contact/facebook.svg";
-import GithubIcon from "@public/Contact/github.svg";
-import EmailIcon from "@public/Contact/email.svg";
-import Icon from "@components/atoms/Icon";
+import { EmailIcon, FacebookIcon, GithubIcon } from "@components/atoms/Icon";
 
 export default function Contact() {
   return (
@@ -17,7 +14,7 @@ export default function Contact() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Icon src={FacebookIcon} alt="FacebookIcon" />
+            <FacebookIcon />
           </Link>
           <h3>Facebook</h3>
         </div>
@@ -27,7 +24,7 @@ export default function Contact() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Icon src={GithubIcon} alt="GithubIcon" />
+            <GithubIcon />
           </Link>
           <h3>Github</h3>
         </div>
@@ -37,7 +34,7 @@ export default function Contact() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Icon src={EmailIcon} alt="EmailIcon" />
+            <EmailIcon />
           </Link>
           <h3>Email</h3>
         </div>

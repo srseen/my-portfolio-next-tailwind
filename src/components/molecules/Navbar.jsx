@@ -3,7 +3,8 @@
 import { useState } from "react";
 import Link from "next/link";
 import ThemeToggle from "@components/atoms/ThemeToggle";
-import Icon from "@components/atoms/Icon";
+import IconWrapper from "@/components/atoms/Icon";
+import { LogoIcon } from "@/components/atoms/Icon";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,7 +15,7 @@ export default function Navbar() {
         <div className="flex items-center space-x-4">
           {/* Logo */}
           <Link href="/">
-            <Icon src="/logo.svg" alt="LogoIcon" />
+            <LogoIcon />
           </Link>
           <h1 className="text-lg font-bold cursor-pointer">
             I'm Seereen Yangpaknam
@@ -59,9 +60,7 @@ export default function Navbar() {
                 Contact
               </Link>
             </li>
-            <li>
-              <ThemeToggle />
-            </li>
+            <ThemeToggle />
           </ul>
         </div>
         <div className="md:hidden flex items-center space-x-4">

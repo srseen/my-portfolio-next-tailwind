@@ -13,6 +13,6 @@
   }
   /* Background Icon Color */
   .bg-icon {
-    @apply bg-gray-100 dark:bg-gray-300;
+    @apply bg-gray-100 hover:bg-gray-200 dark:bg-gray-300 hover:dark:bg-gray-400;
   }
 }
