@@ -27,10 +27,10 @@ export default function Home() {
           tackling new challenges and contributing to innovative projects.
         </p>
         <div className="flex flex-col md:flex-row gap-4 justify-center mt-6">
-          <Button href="/about" className="primary-color">
+          <Button href="/projects" className="primary-color">
             View Projects
           </Button>
-          <Button href="/about" className="bg-gray-400 dark:bg-gray-500">
+          <Button href="/contact" className="bg-gray-400 dark:bg-gray-500">
             Contact Me
           </Button>
         </div>
