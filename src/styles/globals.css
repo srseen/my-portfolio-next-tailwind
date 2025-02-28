@@ -5,14 +5,14 @@
 @layer components {
   /* Primary Color */
   .primary-color {
-    @apply bg-gray-500 text-black dark:bg-gray-900 dark:text-white;
+    @apply bg-sky-900 text-white dark:bg-sky-950 dark:text-white;
   }
   /* Secondary Color */
   .secondary-color {
-    @apply bg-gray-200 text-black dark:bg-gray-400;
+    @apply bg-gray-200 text-black dark:bg-gray-900 dark:text-white;
   }
   /* Background Icon Color */
   .bg-icon {
-    @apply bg-gray-100 hover:bg-gray-200 dark:bg-gray-300 hover:dark:bg-gray-400;
+    @apply bg-sky-100 hover:bg-sky-200 dark:bg-sky-200 hover:dark:bg-sky-100;
   }
 }

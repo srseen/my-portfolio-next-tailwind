@@ -1,10 +1,10 @@
-import { Libre_Baskerville } from "next/font/google";
+import { B612 } from "next/font/google";
 import "../styles/globals.css";
 import Navbar from "@components/molecules/Navbar";
 import Footer from "@/components/molecules/Footer";
 
-const libre_Baskerville = Libre_Baskerville({
-  weight: ["400", "700"],
+const font = B612({
+  weight: ["400"],
   subsets: ["latin"],
 });
 
@@ -17,7 +17,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={libre_Baskerville.className}>
+    <html lang="en" className={font.className}>
       <body>
         <div className="flex flex-col h-screen">
           <Navbar />

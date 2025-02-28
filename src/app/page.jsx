@@ -1,5 +1,5 @@
 import Image from "next/image";
-import MyImage from "@public/Image/my-image.png";
+import MyImage from "@public/Image/my-image.jpg";
 import Button from "@/components/atoms/Button";
 
 export default function Home() {
@@ -10,8 +10,8 @@ export default function Home() {
           src={MyImage}
           className="block mx-auto lg:mx-0 rounded-3xl shadow-2xl shadow-gray-950 transition-transform duration-300 hover:scale-110"
           alt="Profile"
-          width="400"
-          height="300"
+          width="500"
+          height="400"
           loading="lazy"
         />
       </div>
@@ -30,7 +30,9 @@ export default function Home() {
           <Button href="/about" className="primary-color">
             View Projects
           </Button>
-          <Button href="/about">Contact Me</Button>
+          <Button href="/about" className="bg-gray-400 dark:bg-gray-500">
+            Contact Me
+          </Button>
         </div>
       </div>
     </div>

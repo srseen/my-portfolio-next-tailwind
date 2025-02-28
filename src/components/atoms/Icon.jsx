@@ -8,7 +8,7 @@ import Github from "@components/icons/Github";
 
 export function IconWrapper({ children }) {
   return (
-    <div className="bg-icon flex items-center w-8 h-8 justify-center rounded-full cursor-pointer hover:scale-125">
+    <div className="bg-icon flex items-center w-10 h-10 justify-center rounded-full cursor-pointer hover:scale-125">
       {children}
     </div>
   );
