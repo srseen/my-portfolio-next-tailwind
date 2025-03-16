@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Link from "next/link";
 import ThemeToggle from "@components/atoms/ThemeToggle";
-import IconWrapper from "@/components/atoms/Icon";
 import { LogoIcon } from "@/components/atoms/Icon";
 
 export default function Navbar() {
@@ -17,9 +16,7 @@ export default function Navbar() {
           <Link href="/">
             <LogoIcon />
           </Link>
-          <h1 className="text-lg font-bold cursor-pointer">
-            I'm Seereen Yangpaknam
-          </h1>
+          <h1 className="text-lg font-bold">I'm Seereen Yangpaknam</h1>
         </div>
         <div className="hidden md:flex md:items-center md:space-x-6">
           <ul className="flex items-center space-x-6">
@@ -88,27 +85,27 @@ export default function Navbar() {
       </div>
       <ul className={`md:hidden ${isOpen ? "block" : "hidden"} mt-2 space-y-2`}>
         <li className="flex justify-end">
-          <Link href="/" className="block py-2 hover:scale-110">
+          <Link href="/" className="block py-2 hover:scale-110 mr-2">
             Home
           </Link>
         </li>
         <li className="flex justify-end">
-          <Link href="/skills" className="block py-2 hover:scale-110">
+          <Link href="/skills" className="block py-2 hover:scale-110 mr-2">
             Skills
           </Link>
         </li>
         <li className="flex justify-end">
-          <Link href="/projects" className="block py-2 hover:scale-110">
+          <Link href="/projects" className="block py-2 hover:scale-110 mr-2">
             Projects
           </Link>
         </li>
         <li className="flex justify-end">
-          <Link href="/about" className="block py-2 hover:scale-110">
+          <Link href="/about" className="block py-2 hover:scale-110 mr-2">
             About
           </Link>
         </li>
         <li className="flex justify-end">
-          <Link href="/contact" className="block py-2 hover:scale-110">
+          <Link href="/contact" className="block py-2 hover:scale-110 mr-2">
             Contact
           </Link>
         </li>

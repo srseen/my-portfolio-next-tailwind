@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center m-3">
       <h3 className="text-3xl font-bold mb-4">Purpose of This Website</h3>
       <p className="text-lg text-center max-w-2xl">
         This website serves as a portfolio to showcase my projects and skills.
