@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
         <div className="flex flex-col h-screen">
           <Navbar />
           <main className="secondary-color flex-grow flex items-center justify-center">
-            <div className="max-w-full max-h-full">{children}</div>
+            <div className="max-w-full max-h-full mt-20">{children}</div>
           </main>
           <Footer />
         </div>

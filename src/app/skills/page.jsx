@@ -9,10 +9,10 @@ export default function Skills() {
   );
 
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center mx-3">
       <h1 className="text-4xl font-bold mb-6 text-center ">Skills</h1>
-      <div className="flex justify-between">
-        <div className="w-1/2 p-4 m-3">
+      <div className="flex justify-between ">
+        <div className="w-1/2 p-4">
           <h2 className="text-2xl font-bold mb-4 ">Frontend</h2>
           <ul>
             {frontendSkills.skills.map((skill) => (
