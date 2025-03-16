@@ -15,7 +15,7 @@ export default function Home() {
           loading="lazy"
         />
       </div>
-      <div className="lg:w-1/2 text-center lg:text-left">
+      <div className="w-4/5 lg:w-1/2 text-center lg:text-left">
         <h1 className="text-5xl font-bold leading-tight mb-5">
           Hi, I&apos;m Seereen Yangpaknam
         </h1>
