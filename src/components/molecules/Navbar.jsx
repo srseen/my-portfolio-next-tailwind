@@ -27,18 +27,18 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                href="/skills"
-                className="block py-2 md:py-0 hover:scale-110"
-              >
-                Skills
-              </Link>
-            </li>
-            <li>
-              <Link
                 href="/projects"
                 className="block py-2 md:py-0 hover:scale-110"
               >
                 Projects
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/skills"
+                className="block py-2 md:py-0 hover:scale-110"
+              >
+                Skills
               </Link>
             </li>
             <li>
@@ -90,13 +90,13 @@ export default function Navbar() {
           </Link>
         </li>
         <li className="flex justify-end">
-          <Link href="/skills" className="block py-2 hover:scale-110 mr-2">
-            Skills
+          <Link href="/projects" className="block py-2 hover:scale-110 mr-2">
+            Projects
           </Link>
         </li>
         <li className="flex justify-end">
-          <Link href="/projects" className="block py-2 hover:scale-110 mr-2">
-            Projects
+          <Link href="/skills" className="block py-2 hover:scale-110 mr-2">
+            Skills
           </Link>
         </li>
         <li className="flex justify-end">
