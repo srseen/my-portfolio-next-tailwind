@@ -24,7 +24,7 @@ export default function SkillModal({ isOpen, onClose, skill }) {
           onClick={onClose}
           className="mt-4 rounded bg-red-500 px-4 py-2 text-white transition duration-300 hover:bg-red-600"
         >
-          ปิด (Close)
+          Close
         </Button>
       </div>
     </div>
