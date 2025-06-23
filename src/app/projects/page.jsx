@@ -1,4 +1,4 @@
-import { CardProject } from "@/components/molecules/Card";
+import { CardProject } from "@/components/molecules/CardProject";
 import ProjectData from "@/data/project_data";
 
 export default function Project() {
