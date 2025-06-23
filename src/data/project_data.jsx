@@ -1,8 +1,11 @@
 const ProjectData = [
   {
-    image: "/public/Image/homepage-seen-computer-screen.jpg",
-    title: "Project 1",
-    description: "Description of project 1.",
+    image: "/public/Image/my_website.png",
+    url: "https://seereen.website",
+    title: "Portfolio Website",
+    description:
+      "A personal portfolio website showcasing my projects and skills.",
+    logo: ["/public/svg-tech-stack/nextjs.svg"],
   },
   {
     image: "/public/Image/homepage-seen-computer-screen.jpg",

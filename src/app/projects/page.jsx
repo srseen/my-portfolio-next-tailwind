@@ -14,8 +14,16 @@ export default function Project() {
           <CardProject
             key={index}
             image={project.image.replace("/public", "")}
+            url={project.url}
             title={project.title}
             description={project.description}
+            logo={
+              project.logo
+                ? project.logo.map((logoPath) =>
+                    logoPath.replace("/public", "")
+                  )
+                : undefined
+            }
           />
         ))}
       </div>
