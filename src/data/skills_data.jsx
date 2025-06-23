@@ -3,14 +3,6 @@ const skillsData = [
     category: "Frontend",
     skills: [
       {
-        name: "JavaScript",
-        description: "Programming language for web development",
-      },
-      {
-        name: "TypeScript",
-        description: "Superset of JavaScript with static typing",
-      },
-      {
         name: "React",
         description: "JavaScript library for building user interfaces",
       },
@@ -41,11 +33,6 @@ const skillsData = [
         name: "NestJS",
         description:
           "Progressive Node.js framework for building efficient, reliable, and scalable server-side applications",
-      },
-
-      {
-        name: "REST APIs",
-        description: "Architectural style for designing networked applications",
       },
     ],
   },
@@ -82,6 +69,15 @@ const skillsData = [
       {
         name: "Jest",
         description: "JavaScript testing framework",
+      },
+    ],
+  },
+  {
+    category: "Tools",
+    skills: [
+      {
+        name: "Postman",
+        description: "API development and testing tool",
       },
     ],
   },
