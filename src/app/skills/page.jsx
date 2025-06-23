@@ -1,39 +1,24 @@
 import SkillsData from "@/data/skills_data.jsx";
+import { CardSkill } from "@/components/molecules/Card";
 
 export default function Skills() {
-  const frontendSkills = SkillsData.find(
-    (category) => category.category === "Frontend"
-  );
-  const backendSkills = SkillsData.find(
-    (category) => category.category === "Backend"
-  );
-
   return (
-    <div className="flex flex-col items-center justify-center mx-3">
-      <h1 className="text-4xl font-bold mb-6 text-center ">Skills</h1>
-      <div className="flex justify-between ">
-        <div className="w-1/2 p-4">
-          <h2 className="text-2xl font-bold mb-4 ">Frontend</h2>
-          <ul>
-            {frontendSkills.skills.map((skill) => (
-              <li key={skill.name} className="mb-4">
-                <h3 className="text-lg font-bold ">{skill.name}</h3>
-                <p>- {skill.description}</p>
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div className="w-1/2 p-4">
-          <h2 className="text-2xl font-bold mb-4">Backend</h2>
-          <ul>
-            {backendSkills.skills.map((skill) => (
-              <li key={skill.name} className="mb-4">
-                <h3 className="text-lg font-bold ">{skill.name}</h3>
-                <p>- {skill.description}</p>
-              </li>
-            ))}
-          </ul>
-        </div>
+    <div className="flex flex-col items-center justify-center mx-10">
+      <h1 className="text-4xl font-bold mb-6 text-center mt-4">My Skills</h1>
+      <p className="text-lg text-center mb-6">
+        I am a Junior Fullstack Programmer with a passion for learning and
+        growing in the field of software development. Here are some of the
+        skills I have acquired:
+      </p>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
+        {SkillsData.map((category) => (
+          <div key={category.category} className="w-full">
+            <CardSkill
+              name={category.category}
+              skill={category.skills.map((s) => s.name)}
+            />
+          </div>
+        ))}
       </div>
     </div>
   );

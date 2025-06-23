@@ -3,20 +3,26 @@ const skillsData = [
     category: "Frontend",
     skills: [
       {
-        name: "HTML",
-        description: "Markup language for creating web pages",
-      },
-      {
-        name: "CSS",
-        description: "Style sheet language for designing web pages",
-      },
-      {
         name: "JavaScript",
         description: "Programming language for web development",
       },
       {
+        name: "TypeScript",
+        description: "Superset of JavaScript with static typing",
+      },
+      {
         name: "React",
         description: "JavaScript library for building user interfaces",
+      },
+      {
+        name: "Next.js",
+        description:
+          "React framework for server-side rendering and static site generation",
+      },
+      {
+        name: "Angular",
+        description:
+          "Platform for building mobile and desktop web applications",
       },
     ],
   },
@@ -32,16 +38,50 @@ const skillsData = [
         description: "Web application framework for Node.js",
       },
       {
-        name: "MongoDB",
-        description: "NoSQL database for modern applications",
+        name: "NestJS",
+        description:
+          "Progressive Node.js framework for building efficient, reliable, and scalable server-side applications",
       },
-      {
-        name: "SQL",
-        description: "Language for managing relational databases",
-      },
+
       {
         name: "REST APIs",
         description: "Architectural style for designing networked applications",
+      },
+    ],
+  },
+  {
+    category: "Database",
+    skills: [
+      {
+        name: "MySQL",
+        description: "Relational database management system",
+      },
+      {
+        name: "PostgreSQL",
+        description: "Advanced open-source relational database",
+      },
+      {
+        name: "MongoDB",
+        description: "NoSQL database for modern applications",
+      },
+    ],
+  },
+
+  {
+    category: "DevOps",
+    skills: [
+      {
+        name: "Docker",
+        description: "Containerization platform for applications",
+      },
+    ],
+  },
+  {
+    category: "Testing",
+    skills: [
+      {
+        name: "Jest",
+        description: "JavaScript testing framework",
       },
     ],
   },
