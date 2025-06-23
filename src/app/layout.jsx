@@ -16,15 +16,13 @@ export const metadata = {
   openGraph: {
     title: "My Portfolio by Seereen Yangpaknam",
     description: "A showcase of my projects and skills",
-    url: "https://seereen.website/.com",
+    url: "https://seereen.website",
     siteName: "My Portfolio",
     images: [
       {
-<<<<<<< HEAD
         url: "https://seereen.website/image/my_website.png",
-=======
+
         href: "/public/Image/my_website.png",
->>>>>>> 21b26d2b8f03ba2844b81465ec1d118966113e5d
         width: 1200,
         height: 630,
         alt: "My Portfolio Open Graph Image",
