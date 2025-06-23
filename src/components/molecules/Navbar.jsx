@@ -1,4 +1,4 @@
-"use client"; // This is a Client Component, which means you can use event listeners and Hooks.
+"use client";
 
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
