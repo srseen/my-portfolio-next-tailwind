@@ -1,6 +1,8 @@
 import Image from "next/image";
 import MyImage from "@public/Image/my-image.jpg";
 import Button from "@/components/atoms/Button";
+import Link from "next/link";
+import { GithubIcon } from "@/components/atoms/Icon";
 
 export default function Home() {
   return (
@@ -21,12 +23,23 @@ export default function Home() {
         </h1>
         <p className="text-lg mb-5">
           As a Junior Fullstack Programmer, I am proficient in React.js,
-          Next.js, Node.js, and Express.js. I have experience working with
-          databases such as MySQL and MongoDB. I am eager to learn and grow in
-          the field of software development, and I am enthusiastic about
-          tackling new challenges and contributing to innovative projects.
+          Next.js, Angular, Node.js, Express and NestJS. I have experience
+          working with databases such as MySQL, PostgreSQL and MongoDB. I am
+          eager to learn and grow in the field of software development, and I am
+          enthusiastic about tackling new challenges and contributing to
+          innovative projects.
         </p>
         <div className="flex flex-row justify-center item-center md:flex-row gap-4 mt-6">
+          <div className="flex flex-col items-center justify-center gap-2">
+            <Link
+              href="https://github.com/srseen"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GithubIcon />
+            </Link>
+            <h3>Github</h3>
+          </div>
           <Button href="/projects" className="primary-color">
             View Projects
           </Button>
