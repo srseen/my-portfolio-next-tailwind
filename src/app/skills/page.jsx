@@ -48,7 +48,7 @@ export default function Skills() {
                   </h3>
                   <Button
                     href="#"
-                    className="bg-gray-400 dark:bg-gray-500 w-36"
+                    className="bg-gray-400 dark:bg-gray-500 w-36 text-black dark:text-white"
                     onClick={() => openModal(skill)}
                   >
                     View Details
