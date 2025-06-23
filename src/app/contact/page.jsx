@@ -10,16 +10,6 @@ export default function Contact() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         <div className="flex flex-col items-center justify-center gap-2">
           <Link
-            href="https://www.facebook.com/SR.See"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FacebookIcon />
-          </Link>
-          <h3>Facebook</h3>
-        </div>
-        <div className="flex flex-col items-center justify-center gap-2">
-          <Link
             href="https://github.com/srseen"
             target="_blank"
             rel="noopener noreferrer"
@@ -37,6 +27,16 @@ export default function Contact() {
             <EmailIcon />
           </Link>
           <h3>Email</h3>
+        </div>
+        <div className="flex flex-col items-center justify-center gap-2">
+          <Link
+            href="https://www.facebook.com/SR.See"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FacebookIcon />
+          </Link>
+          <h3>Facebook</h3>
         </div>
       </div>
     </div>
