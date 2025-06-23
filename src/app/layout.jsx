@@ -13,6 +13,27 @@ export const metadata = {
   description: "A showcase of my projects and skills",
   author: "Seereen Yangpaknam",
   keywords: ["portfolio", "web development", "projects", "skills"],
+  openGraph: {
+    title: "My Portfolio by Seereen Yangpaknam",
+    description: "A showcase of my projects and skills",
+    url: "https://seereen.website/.com",
+    siteName: "My Portfolio",
+    images: [
+      {
+        href: "/public/Image/my_website.png",
+        width: 1200,
+        height: 630,
+        alt: "My Portfolio Open Graph Image",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  icons: {
+    icon: "/Logo.svg",
+    shortcut: "/Logo.svg",
+    apple: "/Logo.svg",
+  },
 };
 
 export default function RootLayout({ children }) {
