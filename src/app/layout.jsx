@@ -14,8 +14,9 @@ export const metadata = {
   author: "Seereen Yangpaknam",
   keywords: ["portfolio", "web development", "projects", "skills"],
   openGraph: {
-    title: "My Portfolio by Seereen Yangpaknam",
-    description: "A showcase of my projects and skills",
+    title: "My Portfolio - Seereen Yangpaknam",
+    description:
+      "Welcome to my portfolio! Here you can find my projects and skills.",
     url: "https://seereen.website",
     siteName: "My Portfolio",
     images: [
