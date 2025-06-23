@@ -1,15 +1,29 @@
-"use client";
+"use client"; // This is a Client Component, which means you can use event listeners and Hooks.
 
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import ThemeToggle from "@components/atoms/ThemeToggle";
 import { LogoIcon } from "@/components/atoms/Icon";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const navRef = useRef(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (navRef.current && !navRef.current.contains(event.target)) {
+        setIsOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, [navRef]);
 
   return (
-    <nav className="primary-color p-2 shadow-md fixed top-0 left-0 w-full z-50">
+    <nav
+      ref={navRef}
+      className="primary-color p-2 shadow-md fixed top-0 left-0 w-full z-50"
+    >
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center space-x-4">
           {/* Logo */}
@@ -85,27 +99,47 @@ export default function Navbar() {
       </div>
       <ul className={`md:hidden ${isOpen ? "block" : "hidden"} mt-2 space-y-2`}>
         <li className="flex justify-end">
-          <Link href="/" className="block py-2 hover:scale-110 mr-2">
+          <Link
+            href="/"
+            className="block py-2 hover:scale-110 mr-2"
+            onClick={() => setIsOpen(false)}
+          >
             Home
           </Link>
         </li>
         <li className="flex justify-end">
-          <Link href="/projects" className="block py-2 hover:scale-110 mr-2">
+          <Link
+            href="/projects"
+            className="block py-2 hover:scale-110 mr-2"
+            onClick={() => setIsOpen(false)}
+          >
             Projects
           </Link>
         </li>
         <li className="flex justify-end">
-          <Link href="/skills" className="block py-2 hover:scale-110 mr-2">
+          <Link
+            href="/skills"
+            className="block py-2 hover:scale-110 mr-2"
+            onClick={() => setIsOpen(false)}
+          >
             Skills
           </Link>
         </li>
         <li className="flex justify-end">
-          <Link href="/about" className="block py-2 hover:scale-110 mr-2">
+          <Link
+            href="/about"
+            className="block py-2 hover:scale-110 mr-2"
+            onClick={() => setIsOpen(false)}
+          >
             About
           </Link>
         </li>
         <li className="flex justify-end">
-          <Link href="/contact" className="block py-2 hover:scale-110 mr-2">
+          <Link
+            href="/contact"
+            className="block py-2 hover:scale-110 mr-2"
+            onClick={() => setIsOpen(false)}
+          >
             Contact
           </Link>
         </li>
