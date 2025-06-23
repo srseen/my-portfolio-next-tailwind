@@ -3,17 +3,6 @@ const skillsData = [
     category: "Frontend",
     skills: [
       {
-        name: "HTML",
-        description: [
-          "Markup language for creating web pages",
-          "Used for structuring content on the web",
-        ],
-      },
-      {
-        name: "CSS",
-        description: "Style sheet language for designing web pages",
-      },
-      {
         name: "JavaScript",
         description: "Programming language for web development",
       },
@@ -24,6 +13,16 @@ const skillsData = [
       {
         name: "React",
         description: "JavaScript library for building user interfaces",
+      },
+      {
+        name: "Next.js",
+        description:
+          "React framework for server-side rendering and static site generation",
+      },
+      {
+        name: "Angular",
+        description:
+          "Platform for building mobile and desktop web applications",
       },
     ],
   },
@@ -39,13 +38,11 @@ const skillsData = [
         description: "Web application framework for Node.js",
       },
       {
-        name: "MongoDB",
-        description: "NoSQL database for modern applications",
+        name: "NestJS",
+        description:
+          "Progressive Node.js framework for building efficient, reliable, and scalable server-side applications",
       },
-      {
-        name: "SQL",
-        description: "Language for managing relational databases",
-      },
+
       {
         name: "REST APIs",
         description: "Architectural style for designing networked applications",
@@ -67,15 +64,6 @@ const skillsData = [
         name: "MongoDB",
         description: "NoSQL database for modern applications",
       },
-      {
-        name: "SQLite",
-        description: "Lightweight, file-based relational database",
-      },
-      {
-        name: "Redis",
-        description:
-          "In-memory data structure store, used as a database, cache, and message broker",
-      },
     ],
   },
 
@@ -86,23 +74,6 @@ const skillsData = [
         name: "Docker",
         description: "Containerization platform for applications",
       },
-      {
-        name: "Kubernetes",
-        description: "Container orchestration platform",
-      },
-      {
-        name: "CI/CD",
-        description:
-          "Continuous Integration and Continuous Deployment practices",
-      },
-      {
-        name: "AWS",
-        description: "Amazon Web Services, cloud computing platform",
-      },
-      {
-        name: "Azure",
-        description: "Microsoft's cloud computing service",
-      },
     ],
   },
   {
@@ -111,18 +82,6 @@ const skillsData = [
       {
         name: "Jest",
         description: "JavaScript testing framework",
-      },
-      {
-        name: "Mocha",
-        description: "JavaScript test framework for Node.js",
-      },
-      {
-        name: "Chai",
-        description: "Assertion library for Node.js and browsers",
-      },
-      {
-        name: "Cypress",
-        description: "End-to-end testing framework for web applications",
       },
     ],
   },
