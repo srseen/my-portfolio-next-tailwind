@@ -11,7 +11,7 @@ export function CardSkill({ name, skill }) {
             <Button
               href="#"
               key={index}
-              className="bg-gray-400 dark:bg-gray-500 w-auto px-4 py-2 text-sm"
+              className="bg-gray-400 dark:bg-gray-500 w-auto px-4 py-2 text-md text-black dark:text-white rounded-full shadow-lg transition duration-300 hover:scale-110"
             >
               <span className="whitespace-nowrap">{skill}</span>
             </Button>
