@@ -9,8 +9,13 @@ const ProjectData = [
   },
   {
     image: "/public/Image/homepage-seen-computer-screen.jpg",
-    title: "Project 2",
-    description: "Description of project 2.",
+    url: "https://show-shop-project.vercel.app/",
+    title: "Show Shop",
+    description: "An e-commerce platform for showcasing products.",
+    logo: [
+      "/public/svg-tech-stack/react.svg",
+      "/public/svg-tech-stack/tailwindcss.svg",
+    ],
   },
   {
     image: "/public/Image/homepage-seen-computer-screen.jpg",
