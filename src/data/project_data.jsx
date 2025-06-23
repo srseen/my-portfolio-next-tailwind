@@ -8,7 +8,7 @@ const ProjectData = [
     logo: ["/public/svg-tech-stack/nextjs.svg"],
   },
   {
-    image: "/public/Image/homepage-seen-computer-screen.jpg",
+    image: "/public/Image-website/web-shop.png",
     url: "https://show-shop-project.vercel.app/",
     title: "Show Shop",
     description: "An e-commerce platform for showcasing products.",
