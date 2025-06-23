@@ -3,7 +3,7 @@ import { CardSkill } from "@/components/molecules/Card";
 
 export default function Skills() {
   return (
-    <div className="flex flex-col items-center justify-center mx-10">
+    <div className="flex flex-col items-center justify-center mx-10 m-auto max-w-6xl py-10">
       <h1 className="text-4xl font-bold mb-6 text-center mt-4">My Skills</h1>
       <p className="text-lg text-center mb-6">
         I am a Junior Fullstack Programmer with a passion for learning and
