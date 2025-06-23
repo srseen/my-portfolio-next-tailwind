@@ -21,8 +21,6 @@ export const metadata = {
     images: [
       {
         url: "https://seereen.website/image/my_website.png",
-
-        href: "/public/Image/my_website.png",
         width: 1200,
         height: 630,
         alt: "My Portfolio Open Graph Image",
