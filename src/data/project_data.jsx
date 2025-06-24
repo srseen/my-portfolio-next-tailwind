@@ -5,7 +5,10 @@ const ProjectData = [
     title: "Portfolio Website",
     description:
       "A personal portfolio website showcasing my projects and skills.",
-    logo: ["/public/svg-tech-stack/nextjs.svg"],
+    logo: [
+      "/public/svg-tech-stack/nextjs.svg",
+      "/public/svg-tech-stack/tailwindcss.svg",
+    ],
   },
   {
     image: "/public/Image-website/web-shop.png",
@@ -25,7 +28,8 @@ const ProjectData = [
     logo: [
       "/public/svg-tech-stack/react.svg",
       "/public/svg-tech-stack/tailwindcss.svg",
-      "/public/svg-tech-stack/nextjs.svg",
+      "/public/svg-tech-stack/express.svg",
+      "/public/svg-tech-stack/mongodb.svg",
     ],
   },
   {
@@ -34,9 +38,11 @@ const ProjectData = [
     title: "Project 4",
     description: "Description of project 4.",
     logo: [
-      "/public/svg-tech-stack/react.svg",
-      "/public/svg-tech-stack/tailwindcss.svg",
-      "/public/svg-tech-stack/nextjs.svg",
+      "/public/svg-tech-stack/angular.svg",
+      "/public/svg-tech-stack/bootstrap.svg",
+      "/public/svg-tech-stack/nestjs.svg",
+      "/public/svg-tech-stack/postgresql.svg",
+      "/public/svg-tech-stack/docker.svg",
     ],
   },
   {
@@ -47,7 +53,8 @@ const ProjectData = [
     logo: [
       "/public/svg-tech-stack/react.svg",
       "/public/svg-tech-stack/tailwindcss.svg",
-      "/public/svg-tech-stack/nextjs.svg",
+      "/public/svg-tech-stack/nestjs.svg",
+      "/public/svg-tech-stack/postgresql.svg",
     ],
   },
   {
@@ -58,7 +65,8 @@ const ProjectData = [
     logo: [
       "/public/svg-tech-stack/react.svg",
       "/public/svg-tech-stack/tailwindcss.svg",
-      "/public/svg-tech-stack/nextjs.svg",
+      "/public/svg-tech-stack/nestjs.svg",
+      "/public/svg-tech-stack/mongodb.svg",
     ],
   },
   {
@@ -67,9 +75,10 @@ const ProjectData = [
     title: "Project 7",
     description: "Description of project 7.",
     logo: [
-      "/public/svg-tech-stack/react.svg",
-      "/public/svg-tech-stack/tailwindcss.svg",
       "/public/svg-tech-stack/nextjs.svg",
+      "/public/svg-tech-stack/tailwindcss.svg",
+      "/public/svg-tech-stack/express.svg",
+      "/public/svg-tech-stack/mongodb.svg",
     ],
   },
   {
@@ -78,9 +87,9 @@ const ProjectData = [
     title: "Project 8",
     description: "Description of project 8.",
     logo: [
-      "/public/svg-tech-stack/react.svg",
-      "/public/svg-tech-stack/tailwindcss.svg",
       "/public/svg-tech-stack/nextjs.svg",
+      "/public/svg-tech-stack/tailwindcss.svg",
+      "/public/svg-tech-stack/mysql.svg",
     ],
   },
 ];
