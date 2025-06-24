@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import SkillsData from "@/data/skills_data.jsx";
 import SkillModal from "@/components/molecules/SkillModal";
 import Button from "@/components/atoms/Button";
 import skillsData from "@/data/skills_data.jsx";
@@ -21,7 +20,7 @@ export default function Skills() {
   };
 
   return (
-    <div className="flex flex-col w-full items-center justify-center mx-3 py-10">
+    <div className="flex flex-col w-full items-center justify-center py-12 px-4">
       <h1 className="text-4xl font-bold mb-6 text-center">Skills</h1>
       <p className="text-lg text-center mb-6">
         I am a Junior Fullstack Programmer with a passion for learning and
@@ -59,7 +58,6 @@ export default function Skills() {
         ))}
       </div>
 
-      {/* modal */}
       <SkillModal
         isOpen={isModalOpen}
         onClose={closeModal}
