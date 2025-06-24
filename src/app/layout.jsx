@@ -9,14 +9,14 @@ const font = B612({
 });
 
 export const metadata = {
-  title: "My Portfolio",
+  title: "My Portfolio - Seereen Yangpaknam",
   description: "A showcase of my projects and skills",
   author: "Seereen Yangpaknam",
   keywords: ["portfolio", "web development", "projects", "skills"],
   openGraph: {
     title: "My Portfolio - Seereen Yangpaknam",
     description:
-      "Welcome to my portfolio! Here you can find my projects and skills.",
+      "Welcome to my portfolio! Here you can explore my projects and skills in web development.",
     url: "https://seereen.website",
     siteName: "My Portfolio",
     images: [
