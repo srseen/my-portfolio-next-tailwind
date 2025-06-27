@@ -55,7 +55,7 @@ export default function Project() {
           ))}
         </div>
         {!isMobile && ( // Conditionally render pagination for non-mobile
-          <div className="flex justify-center mt-4 gap-4">
+          <div className="flex flex-row items-center justify-center mt-4 gap-4">
             <Button
               onClick={handlePrevPage}
               disabled={currentPage === 0}
@@ -63,6 +63,11 @@ export default function Project() {
             >
               Previous
             </Button>
+            <div className="">
+              <p>
+                {currentPage + 1}/{totalPages}
+              </p>
+            </div>
             <Button
               onClick={handleNextPage}
               disabled={currentPage === totalPages - 1}
