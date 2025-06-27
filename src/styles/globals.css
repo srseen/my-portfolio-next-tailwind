@@ -5,14 +5,14 @@
 @layer components {
   /* Primary Color */
   .primary-color {
-    @apply bg-gradient-to-br from-slate-500 to-slate-700 text-white dark:from-slate-700 dark:to-slate-900 shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out;
+    @apply bg-slate-300 dark:bg-slate-950  text-black dark:text-white shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out;
   }
   /* Secondary Color */
   .secondary-color {
-    @apply bg-gradient-to-br from-slate-400 to-slate-600 text-white dark:from-slate-600 dark:to-slate-800 shadow-md hover:shadow-lg transition-all duration-300 ease-in-out;
+    @apply bg-white dark:bg-slate-800 shadow-md text-black dark:text-white hover:shadow-lg transition-all duration-300 ease-in-out;
   }
   /* Background Icon Color */
   .bg-icon {
-    @apply bg-gradient-to-br from-slate-400 to-slate-500 hover:from-slate-300 hover:to-slate-400 dark:from-slate-500 dark:to-slate-600 hover:dark:from-slate-400 hover:dark:to-slate-500 text-white rounded-full p-2 shadow-md hover:shadow-lg transition-all duration-300 ease-in-out;
+    @apply bg-slate-400 hover:bg-slate-500 dark:bg-slate-500 hover:dark:bg-slate-300 text-white rounded-full p-2 shadow-md hover:shadow-lg transition-all duration-300 ease-in-out;
   }
 }
