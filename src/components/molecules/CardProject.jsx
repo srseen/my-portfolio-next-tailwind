@@ -13,8 +13,12 @@ export function CardProject({ image, url, title, description, logo }) {
       />
 
       <div className="text-white flex flex-col items-center w-full flex-1">
-        <h2 className="text-lg font-semibold mb-2 line-clamp-2">{title}</h2>
-        <p className="text-sm line-clamp-3 mb-2">{description}</p>
+        <h2 className="text-lg font-semibold mb-2 line-clamp-2 text-black dark:text-white">
+          {title}
+        </h2>
+        <p className="text-sm line-clamp-3 mb-2 text-black dark:text-white">
+          {description}
+        </p>
 
         {logo && (
           <div className="flex flex-wrap justify-center items-center gap-2 mt-4">
