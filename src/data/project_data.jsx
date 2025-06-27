@@ -22,7 +22,6 @@ const ProjectData = [
   },
   {
     image: "/public/Image-website/demo-website.jpg",
-    url: "https://demo-website.com",
     title: "Project 3",
     description: "Description of project 3.",
     logo: [
@@ -34,7 +33,6 @@ const ProjectData = [
   },
   {
     image: "/public/Image-website/demo-website.jpg",
-    url: "https://demo-website.com",
     title: "Project 4",
     description: "Description of project 4.",
     logo: [
@@ -47,7 +45,6 @@ const ProjectData = [
   },
   {
     image: "/public/Image-website/demo-website.jpg",
-    url: "https://demo-website.com",
     title: "Project 5",
     description: "Description of project 5.",
     logo: [
@@ -59,7 +56,6 @@ const ProjectData = [
   },
   {
     image: "/public/Image-website/demo-website.jpg",
-    url: "https://demo-website.com",
     title: "Project 6",
     description: "Description of project 6.",
     logo: [
@@ -71,7 +67,6 @@ const ProjectData = [
   },
   {
     image: "/public/Image-website/demo-website.jpg",
-    url: "https://demo-website.com",
     title: "Project 7",
     description: "Description of project 7.",
     logo: [
@@ -83,7 +78,6 @@ const ProjectData = [
   },
   {
     image: "/public/Image-website/demo-website.jpg",
-    url: "https://demo-website.com",
     title: "Project 8",
     description: "Description of project 8.",
     logo: [
