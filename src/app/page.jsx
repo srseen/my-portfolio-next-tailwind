@@ -43,7 +43,10 @@ export default function Home() {
           <Button href="/projects" className="primary-color">
             View Projects
           </Button>
-          <Button href="/contact" className="bg-gray-400 dark:bg-gray-500">
+          <Button
+            href="/contact"
+            className="bg-gray-400 dark:bg-gray-500 text-black dark:text-white"
+          >
             Contact Me
           </Button>
         </div>
