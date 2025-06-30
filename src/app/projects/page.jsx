@@ -40,7 +40,7 @@ export default function Project() {
         technologies. Explore my projects and get to know more about my work.
       </p>
       <div className="flex flex-col items-center">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 m-2 auto-rows-fr">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 m-4 auto-rows-fr">
           {currentProjects.map((project, index) => (
             <CardProject
               key={index}
