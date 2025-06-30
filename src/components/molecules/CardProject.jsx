@@ -5,35 +5,39 @@ export function CardProject({ image, url, title, description, logo }) {
     <Button
       {...(url
         ? { href: url, target: "_blank", rel: "noopener noreferrer" }
-        : {})}
-      className="primary-color w-80 h-96 p-4 rounded-lg shadow-md flex flex-col justify-between items-center transition-transform duration-300 hover:scale-105 max-w-sm mx-auto overflow-hidden"
+        : { as: "div", role: "button" })}
+      className="primary-color w-80 p-4 rounded-lg shadow-md flex flex-col transition-transform duration-300 hover:scale-105 max-w-sm mx-auto overflow-hidden group"
     >
       <img
         src={image}
         alt={title}
-        className="object-cover rounded-lg my-4 shadow-lg w-full h-40"
+        className="object-cover rounded-lg my-4 shadow-lg w-full h-40 group-hover:shadow-xl transition-shadow duration-300"
       />
-      <div className="text-white flex flex-col justify-between items-center flex-grow w-full">
-        <h2 className="text-lg font-semibold text-black dark:text-white text-center mb-2 flex-grow-0">
-          {title.length > 30 ? title.substring(0, 30) + "..." : title}
-        </h2>
-        <p className="text-sm text-black dark:text-white text-center flex-grow mb-4 overflow-hidden text-ellipsis flex-grow">
-          {description.length > 100
-            ? description.substring(0, 100) + "..."
-            : description}
-        </p>
-        {logo && (
-          <div className="flex flex-wrap justify-center items-center gap-2 secondary-color p-2 rounded-full mt-auto self-center flex-grow-0">
-            {logo.map((logoItem, index) => (
-              <img
-                key={index}
-                src={logoItem}
-                alt="Tech Logo"
-                className="w-8 h-8 object-contain"
-              />
-            ))}
+      <div className="flex flex-col flex-grow w-full gap-4 text-black dark:text-white">
+        <div className="h-20">
+          <h2 className="text-lg font-semibold text-center mb-2 group-hover:text-primary transition-colors duration-300">
+            {title}
+          </h2>
+          <p className="text-sm text-center m-2 text-ellipsis overflow-hidden flex-grow">
+            {description}
+          </p>
+        </div>
+        <div>
+          <div className="mt-auto">
+            {logo && (
+              <div className="flex justify-center items-center gap-2 secondary-color p-2 rounded-full">
+                {logo.map((logoItem, index) => (
+                  <img
+                    key={index}
+                    src={logoItem}
+                    alt="Tech Logo"
+                    className="w-8 h-8 object-contain"
+                  />
+                ))}
+              </div>
+            )}
           </div>
-        )}
+        </div>
       </div>
     </Button>
   );
