@@ -25,7 +25,7 @@ export function CardProject({ image, url, title, description, logo }) {
         <div>
           <div className="mb-2">
             {logo && (
-              <div className="flex justify-center items-center gap-2 secondary-color p-2 rounded-lg">
+              <div className="flex justify-center items-center gap-2 bg-icon p-2 rounded-lg">
                 {logo.map((logoItem, index) => (
                   <img
                     key={index}
