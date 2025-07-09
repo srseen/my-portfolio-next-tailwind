@@ -21,9 +21,10 @@ const ProjectData = [
     ],
   },
   {
-    image: "/public/Image-website/demo-website.jpg",
-    title: "Project 3",
-    description: "Description of project 3.",
+    image: "/public/Image-website/web-OfficeHub.png",
+    title: "equipment_management",
+    description:
+      "Equipment Management helps organizations manage their office equipment efficiently.",
     logo: [
       "/public/svg-tech-stack/react.svg",
       "/public/svg-tech-stack/tailwindcss.svg",
