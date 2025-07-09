@@ -22,6 +22,7 @@ const ProjectData = [
   },
   {
     image: "/public/Image-website/web-OfficeHub.png",
+    url: "https://github.com/srseen/demo_equipment_management",
     title: "equipment_management",
     description:
       "Equipment Management helps organizations manage their office equipment efficiently.",
