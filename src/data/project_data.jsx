@@ -26,10 +26,11 @@ const ProjectData = [
     description:
       "Equipment Management helps organizations manage their office equipment efficiently.",
     logo: [
-      "/public/svg-tech-stack/react.svg",
-      "/public/svg-tech-stack/tailwindcss.svg",
-      "/public/svg-tech-stack/express.svg",
-      "/public/svg-tech-stack/mongodb.svg",
+      "/public/svg-tech-stack/angular.svg",
+      "/public/svg-tech-stack/bootstrap.svg",
+      "/public/svg-tech-stack/nestjs.svg",
+      "/public/svg-tech-stack/postgresql.svg",
+      "/public/svg-tech-stack/docker.svg",
     ],
   },
   {
